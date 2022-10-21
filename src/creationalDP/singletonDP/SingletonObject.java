@@ -4,11 +4,11 @@ public class SingletonObject {
 
     String message = "Merhaba";
 
-    private static SingletonObject instance = new SingletonObject();
+    private static SingletonObject instance = new SingletonObject();  //ilk create
 
-    private SingletonObject(){};
+    private SingletonObject(){};         //default const. private ile new lemeyi kapattik bu class disinda cagrilamaz
 
-    public static SingletonObject getInstance(){
+    public static SingletonObject getInstance(){   //
         return instance;
     }
 

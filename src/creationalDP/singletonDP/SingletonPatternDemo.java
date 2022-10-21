@@ -11,6 +11,5 @@ public class SingletonPatternDemo {
 
         //olusan obje singleton mu test edelim
         SingletonObject object3 = SingletonObject.getInstance();
-        object3.showMessage();
-    }
+        System.out.println(object3.message);    }
 }
